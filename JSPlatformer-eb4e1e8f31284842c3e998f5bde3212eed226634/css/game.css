@@ -1,3 +1,4 @@
+.background    { background: rgb(180, 166, 251);
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
