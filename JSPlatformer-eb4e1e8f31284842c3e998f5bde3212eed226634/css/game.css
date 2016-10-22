@@ -5,8 +5,12 @@
 .lava          { background: rgb(255, 100, 100); }
 .wall          { background: white;   }
 .floater	   { background: green;   }
+.actor  	   { position: absolute; }
+.player		   { background : rgb(64, 64, 64); }
+.playerDead	   { background: rgb(255, 0, 0);}
 
-.game {
+.game 
+{
   overflow: hidden;
   max-width: 600px;
   max-height: 450px;
