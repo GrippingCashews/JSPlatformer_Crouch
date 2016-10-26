@@ -1,13 +1,19 @@
-.background    { background: rgb(180, 166, 251);
+.background    { background: rgb(126, 192, 238);
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: rgb(255, 100, 100); }
-.wall          { background: white;   }
-.floater	   { background: green;   }
+.lava          { background-image:url(lava.png);}
+.lava2		   { background-image:url(lava2.png);}
+.wall          { background-image:url(wall.png);}
+.wall2         { background-image:url(underground.png);}
+.wall22        { background-image:url(underground2.png);}
 .actor  	   { position: absolute; }
-.player		   { background : rgb(64, 64, 64); }
+.coin  		   { background: rgb(241, 229, 89);}
+
+.spike		   { background-image:url(spike.png);}
+.player		   { background : rgb(64, 64, 64);}
 .playerDead	   { background: rgb(255, 0, 0);}
+
 
 .game 
 {
