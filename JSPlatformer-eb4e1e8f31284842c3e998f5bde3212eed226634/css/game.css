@@ -9,11 +9,19 @@
 .wall22        { background-image:url(underground2.png);}
 .actor  	   { position: absolute; }
 .coin  		   { background: rgb(241, 229, 89);}
+.flag		   { background-image:url(flag.png);}
 
 .spike		   { background-image:url(spike.png);}
 .player		   { background : rgb(64, 64, 64);}
 .playerDead	   { background: rgb(255, 0, 0);}
 
+p {
+	color: black;
+	background-color: rgb(126, 192, 238);
+	max-width: 600px;
+	
+	
+}
 
 .game 
 {
